@@ -1,0 +1,62 @@
+body{
+    background-image: url(Login.jpg);
+    overflow: hidden;
+}
+.log{
+    background-color: aliceblue;
+    width: 40%;
+    height: 550px;
+    margin-left: 130px;
+    margin-top: 32px;
+    float: left;
+    border-top-left-radius: 5px;
+}
+.log input{
+    display: block;
+    padding: 8px 100px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+.img{
+    width: 31%;
+    height: 550px;
+    float: left;
+    overflow: hidden;    
+    margin-top: 32px;
+    transition: 2s;
+   }
+   .img:hover{
+       opacity: 0.7;
+   }
+   .log h2{
+       position: relative;
+       left:56px ;
+       top: 40px;
+       color: rgba(198, 26, 221, 0.788);
+   }
+   #inpu{
+       margin-top:116px ;
+   }
+   .log #inpu p{
+       position: relative;
+       left: 50px;
+       top: -30px;
+   }
+   span{
+       color: aqua;
+   }
+   button{
+       border: 1px solid cadetblue;
+       padding: 5px 15px;
+       background-color: rgba(0, 255, 255, 0.349);
+       border-radius: 4px;
+       position: absolute;
+       left: 280px;
+       top: 460px;
+
+   }
+   button:hover{
+       background-color: cyan;
+       box-shadow:5px 6px 5px rgb(0, 255, 255);
+   }
